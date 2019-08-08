@@ -1,0 +1,5 @@
+15:30:57.866 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.huishuo.hdata.xml.HDataJobXMLTest], using SpringBootContextLoader
+15:30:57.874 [main] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.huishuo.hdata.xml.HDataJobXMLTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+15:30:57.875 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.huishuo.hdata.xml.HDataJobXMLTest]: HDataJobXMLTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+15:31:11.276 [main] ERROR com.huishuo.hdata.xml.HDataJobXML - File is not exists or not file. path=C:\tmp\job_2.xml
+15:31:11.376 [main] INFO  com.huishuo.hdata.util.FileTool - file is not exists, create new file. file=C:\tmp\Job_2.xml
